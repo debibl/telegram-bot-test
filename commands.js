@@ -10,6 +10,10 @@ const commandsList = [
   {
     command: "cat",
     description: "Прислать случайное фото кота"
+  },
+  {
+    command: "meme",
+    description: "Прислать случайный мем"
   }
 ];
 
@@ -18,6 +22,7 @@ const welcomeText = `
   Вот некоторые из моих команд:
   /help - список всех моих команд
   /cat - прислать случайное фото кота
+  /meme - прислать случайный мем
 `;
 
 const helpText = () => {
